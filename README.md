@@ -13,4 +13,16 @@ It turns out:
 nil
         is nil
         is not *A
+(*T)(nil)
+        is not nil
+        is I, but not nil
+        is (*T)(nil)
+(I)(nil)
+        is nil
+        is not I
+        is not *T
+nil
+        is nil
+        is not I
+        is not *T
 ```
